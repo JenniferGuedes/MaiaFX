@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" icon="favicon.ico">
+    <title>MaiaFX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <nav aria-label="Menu do cabeçalho">
+        <ul class="menu">
+            <li class="hideMobile"><a href="#historia">Minha História</a></li>
+            <li class="hideMobile"><a href="#hardskills">Hard Skills</a></li>
+            <li class="hideMobile"><a href="#softskills">Soft Skills</a></li>
+            <li class="hideMobile"><a href="#projetos">Projetos</a></li>  
+            <li class="hideMobile"><a href="#contato">Contato</a></li> 
+            <li class="hideDesktop">
+                <a href="#menu" onclick="showsidebar()">
+                    <img src="assets/burgerMenu.svg" alt="barra para abrir o menu">
+                </a>
+            </li> 
+        </ul>
+
+       <ul class="sidebar">
+            <li>
+                <button onclick="hidesidebar()" class="close-btn">
+                <img src="assets/close.svg" alt="Fechar menu lateral">
+                </button>
+            </li>
+            <li class="menucel"><a href="#historia" onclick="hidesidebar()">Minha História</a></li>
+            <li><a href="#hardskills" onclick="hidesidebar()">Hard Skills</a></li>
+            <li><a href="#softskills" onclick="hidesidebar()">Soft Skills</a></li>
+            <li><a href="#projetos" onclick="hidesidebar()">Projetos</a></li>
+            <li><a href="#contato" onclick="hidesidebar()">Contato</a></li>
+        </ul>
+
+    </nav>  
+
+    <main>
+    <h1>Bem-vindo ao MaiaFX</h1>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <h2>Sobre Nós</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <h2>Serviços</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <h2>Contato</h2>
+    <img src="assets/behance.png" class="SocialIcon" alt="Behance">
+    <img src="assets/linkedin.png" class="SocialIcon" alt="LinkedIn">
+    <img src="assets/whatsapp.png" class="SocialIcon" alt="WhatsApp">
+
+    </main>
+
+    <footer>
+        <p>&copy; 2017 MaiaFX. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
